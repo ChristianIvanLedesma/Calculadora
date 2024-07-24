@@ -7,7 +7,7 @@
     font-size: 35px;
     background-color: #0052cc;
     color: #ffffff;
-    border-radius:25px ;
+    border-radius:10px ;
     border: 1px solid #000000;
     margin: 4px;
     cursor: pointer;
@@ -25,4 +25,9 @@
 }
 .operador:hover{
     background-color: #001433;
+}
+
+
+.igual{
+    background-color: beige;
 }
