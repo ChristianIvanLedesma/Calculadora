@@ -8,13 +8,13 @@ import { evaluate } from 'mathjs';
 
 function App() {
   const [input, setInput] = useState('');
-  const [lastResult, setLastResult] = useState(null);
+  const [ setLastResult] = useState(null);
 
   const agregarInput = valor => {
     if (input === 'Error') {
       setInput(valor);
     } else {
-      // Si el input empieza con "Total: ", extraer el resultado numérico
+    
       const newInput = input.startsWith('Total: ') ? input.slice(7) : input;
 
       if (['+', '-', '*', '/'].includes(valor)) {
